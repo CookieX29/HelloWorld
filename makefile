@@ -8,7 +8,7 @@ main: main.cpp
 
 # Clean up object files and the executable
 clean:
-	rm -f $(TARGET)
+	rm -f main
 
 # Phony targets to avoid conflicts with files
 .PHONY: all clean
