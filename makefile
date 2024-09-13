@@ -1,9 +1,3 @@
-# Define variables
-TARGET = main
-SRC = main.cpp
-CC = g++
-CFLAGS = -Wall -g
-
 # Default target that builds and runs the program
 all: main
 	./main
